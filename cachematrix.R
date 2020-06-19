@@ -5,7 +5,6 @@
 
 
 ## makeCacheMatrix function creates a special "matrix" object that can cache its inverse.
-
 ## It returns a list contains:
 ### 1. set: set the matrix
 ### 2. get: get the matrix
@@ -29,10 +28,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## cacheSolve function computes the inverse of the special "matrix"
-
 ## If the inverse has already been calculated,
 ### the function will retrieve the inverse from the cache.
-
 ## If the inverse has not been calculated before,
 ### this function will compute it.
 
