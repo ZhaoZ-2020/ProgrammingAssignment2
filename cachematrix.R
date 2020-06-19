@@ -11,7 +11,6 @@
 ### 3. setinverse: set the value of the inverse matrix
 ### 4. getinverse: get the value of the inverse matrix
 
-
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
     set <- function(y) {
